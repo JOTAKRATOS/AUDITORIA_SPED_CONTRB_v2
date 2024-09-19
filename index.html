@@ -23,6 +23,8 @@
         <h2>Explore o Projeto</h2>
         <div class="button-container">
             <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank" class="btn">Ver Código no GitHub</a>
+            <!-- Botão de download direto do script no GitHub -->
+            <a href="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/seu-script.py" download class="btn">Baixar Script</a>
             <button class="btn" onclick="runScript()">Rodar o Código Localmente</button>
         </div>
     </section>
@@ -33,7 +35,7 @@
 
     <script>
         function runScript() {
-            alert("Para rodar o código localmente, baixe o script no GitHub.");
+            alert("Para rodar o código localmente, siga estes passos:\n1. Baixe o script clicando no botão 'Baixar Script'.\n2. Instale o Python se não estiver instalado.\n3. Execute o script em um ambiente Python local.");
         }
     </script>
 </body>
